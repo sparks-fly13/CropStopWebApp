@@ -1,6 +1,8 @@
 function App () {
+    // any thing
+    
     return (
-        <div>My CropTech App</div>
+        <div>Hello CropTech App</div>
     );
 }
 
