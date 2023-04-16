@@ -26,10 +26,15 @@ $(document).ready(function(){
 var newsList = document.querySelector('.news-list');
 window.addEventListener("load", function(e){
     e.preventDefault();
-    const apiKey = 'da65427a02544c75968042d2df725306';
-    let q = "agriculture+AND+(crop+OR+livestock+OR+farming)+AND+India";
-    let url = `https://newsapi.org/v2/everything?q=${q}&sortBy=relevancy&apiKey=${apiKey}`;
-    fetch(url).then((res)=>{
+    const apiKey = 'UhEM6sCXRqA_ge-gfOiEXzAOAODhv9kB9WbFqk1clDg';
+    let q = "agriculture+AND+(crop+OR+livestock+OR+farming)";
+    let url = `https://api.newscatcherapi.com/v2/search?q=${q}&countries=IN&`;
+    fetch(url, {
+        method: 'GET',
+        headers: {
+            'x-api-key':apiKey
+        }
+    }).then((res)=>{
         return res.json()
     }).then((data)=>{
         console.log(data.articles);
@@ -40,7 +45,7 @@ window.addEventListener("load", function(e){
             div2.classList.add('meta');
             let div3 = document.createElement('div');
             div3.classList.add('img');
-            div3.style.backgroundImage = `url(${article.urlToImage})`;
+            div3.style.backgroundImage = `url(${article.media})`;
             if (div3.style.backgroundImage == null){
                 div3.style.backgroundImage = "url(./src/2.png)";
             }
@@ -51,11 +56,11 @@ window.addEventListener("load", function(e){
             let h2 = document.createElement('h2');
             h2.innerText = article.title;
             let p = document.createElement('p');
-            p.innerText = article.description;
+            p.innerText = article.excerpt;
             let readMore = document.createElement('p');
             p.classList.add('read-more');
             let a = document.createElement('a');
-            a.setAttribute('href',article.url);
+            a.setAttribute('href',article.link);
             a.setAttribute('target','_blank');
             a.innerText = "Read More";
 
