@@ -50,7 +50,7 @@ insights from trusted sources around the world. From new farming
 technologies to market trends and policy developments, our news service
 covers it all.
 
-## Services:
+## Services <img src='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/handShake.gif' width="50px" height=50px>:
 At CropStop, we offer a comprehensive suite of services
 designed to help farmers improve their crop yields and reduce the risks
 and costs associated with farming. Our services include:
