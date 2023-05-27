@@ -45,7 +45,7 @@ agricultural landscape.
 ## Features:
 News and Latest Innovations: Stay up-to-date with the latest
 news and innovations in the agricultural industry with CropStop. Our
-platform uses the News API to provide users with real-time news and
+platform uses the <ins>Newscatcher API</ins> to provide users with real-time news and
 insights from trusted sources around the world. From new farming
 technologies to market trends and policy developments, our news service
 covers it all.
