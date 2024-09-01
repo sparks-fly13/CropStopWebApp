@@ -42,7 +42,7 @@ agricultural needs. Our platform is designed to provide farmers with the
 tools and information they need to succeed in today\'s rapidly changing
 agricultural landscape.
 
-## Features:
+## Features and Services:
 News and Latest Innovations: Stay up-to-date with the latest
 news and innovations in the agricultural industry with CropStop. Our
 platform uses the <ins>Newscatcher API</ins> to provide users with real-time news and
@@ -50,7 +50,6 @@ insights from trusted sources around the world. From new farming
 technologies to market trends and policy developments, our news service
 covers it all.
 
-## Services <img src='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/handShake.gif' width="50px" height=50px>:
 At CropStop, we offer a comprehensive suite of services
 designed to help farmers improve their crop yields and reduce the risks
 and costs associated with farming. Our services include:
